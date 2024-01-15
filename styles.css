@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    background: #FFF;
+}
+/* style for nav bar */
+.top-part{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav-bar{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.elite{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+    
+
+}
+.elite img{
+    width: 50px;
+    height: 60px;
+    object-fit: cover;
+   
+}
+.elite p{
+    font-size: 36px;
+    font-weight: 800;
+}
+.elite .travel{
+    color: #FF5400;
+}
+.home a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.home a:first-child{
+    color: #FF5400;
+}
+.home{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.explore h1{
+   
+font-family: Mulish;
+font-size: 60px;
+font-weight: 800;
+
+}
+.header-img{
+    object-fit:cover;
+    margin-top: 20px;
+    position: relative;
+}
+.explore{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: -27%;
+    margin-left: 300px;
+
+    
+
+}
+.explore h1{
+    color: #FFF;
+    width: 600px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.explore p{
+    color: #FFF;
+    width: 600px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.where input{
+    width: 174px;
+    height: 52px;
+    padding-left: 10px;
+    border: 0;
+    border-radius: 8px
+}
+.when{
+    position: relative;
+}
+.when input{
+    width: 174px;
+    height: 52px;
+    padding-left: 10px;
+    border: 0;
+    border-radius: 8px
+}
+.when img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 140px;
+    margin-top: 10px;
+
+}
+.select{
+    position: relative;
+}
+.select input{
+    width: 174px;
+    height: 52px;
+    padding-left: 10px;
+    border: 0;
+    border-radius: 8px
+    
+}
+.select img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 140px;
+    margin-top: 10px; 
+}
+.btn{
+    position: relative;
+}
+.btn-primary{
+    background-color: #FF5400;
+    width: 174px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    border: 0;
+    border-radius: 8px;
+}
+.btn img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    margin-top: 10px
+
+}
+.input-details{
+    width: 800px;
+    height: 84px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 200px;
+    
+}
