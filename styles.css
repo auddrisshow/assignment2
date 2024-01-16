@@ -221,7 +221,8 @@ font-weight: 800;
 /* section-1 finished */
 /* secttion-2 start */
 
-.country-pics:{
+.country-pics{
+    margin-bottom:100px;
     
 }
 .destination{
@@ -373,5 +374,76 @@ font-weight: 800;
     position: absolute;
     top:50%;
     left: 40%; 
-} 
+}
+ /*section-2 style end  */
+ /* section-3 style start */
+ 
+
+
+ .why-choose h3{
     
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    
+
+ }
+ .why-choose p{
+    
+    width: 500px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 350px;
+ } 
+
+ .card-1 img, h3, p{
+    margin-left: 30px;
+    margin-top: 30px;
+ }
+ .card-2 img, h3, p{
+    margin-left: 30px;
+    margin-top: 30px;
+ }
+ 
+ .card-1 {
+    
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+ }
+ .card-2{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+ }
+ .cards-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .card-3 img, h3, p{
+    margin-left: 30px;
+    margin-top: 30px;
+ }
+ .card-3{
+    margin-left: 320px;
+    margin-top: 25px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+
+ }
+/* section-3 end */
+/* section-4 start */
