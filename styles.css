@@ -11,6 +11,8 @@ body{
 .top-part{
     max-width: 1170px;
     margin: 0 auto;
+    min-height: 200px;
+    margin-bottom: 50px;
 }
 .nav-bar{
     max-width: 1170px;
@@ -171,3 +173,205 @@ font-weight: 800;
     margin-left: 200px;
     
 }
+/* nav and header style finished */
+/* section-1 style below */
+.main-tour{
+    margin-top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.popular-tours{
+    margin-top: 100px;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.popular-tours-details{
+    width:50%
+}
+.popular-tours-details h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.popular-tours-details p,ul{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+.popular-tours-details, ul{
+    left: 50px;
+}
+..popular-img{
+    width: 50%;
+}
+.popular-img img{
+    width:100%;
+    height:100%
+    object-fit:cover;
+}
+/* section-1 finished */
+/* secttion-2 start */
+
+.country-pics:{
+    
+}
+.destination{
+    
+    align-items: center;
+}
+.destination h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+
+}
+.destination p{
+    width: 600px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 280px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.pics-container{
+    width: 100%;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 5px;
+
+}
+.pics-container img{
+    width: 100%;
+    height:100%;
+}
+.pic-1{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+    position: relative;
+    
+}
+.pic-1 .mal{
+    color: #FFF;
+    width: 30px;
+    height: 10px;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top:50%;
+    left: 40%;
+    
+}
+.pic-2{
+    grid-column: 7/span 12;
+    grid-row: 1/span 1;
+    position: relative;
+
+    
+}
+.pic-2 .ind{
+    color: #FFF;
+    width: 30px;
+    height: 10px;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top:50%;
+    left: 40%;
+}
+.pic-3{
+    grid-column: 1/span 4; 
+    grid-row: 2/span 1;
+    position: relative;
+    
+}
+.pic-3 .sri{
+    color: #FFF;
+    width: 30px;
+    height: 10px;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top:50%;
+    left: 35%;
+}
+.pic-4{
+    width: 50%;
+    grid-column: 5/span 8;
+    grid-row: 2/span 1; 
+    position: relative;
+    
+}
+.pic-4 .north{
+    color: #FFF;
+    width: 150px;
+    height: 20px;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top:50%;
+    left: 40%;  
+}
+.pic-5{
+    margin-left: 5px;
+    width: 95%;
+    grid-column: 9/span 12; 
+    grid-row: 2/span 1;
+    position: relative;
+}
+.pic-5 .kash{
+    color: #FFF;
+    width: 150px;
+    height: 20px;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top:50%;
+    left: 40%;  
+}
+.pic-6{
+    grid-column: 1/span 5; 
+    grid-row: 3/span 1;
+    position: relative;
+}
+.pic-6 .bang{
+    color: #FFF;
+    width: 150px;
+    height: 20px;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top:50%;
+    left: 40%;  
+}   
+.pic-7{
+    grid-column: 6/span 12; 
+    grid-row: 3/span 1;
+    position: relative;
+}
+.pic-7 .band{
+    color: #FFF;
+    width: 150px;
+    height: 20px;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top:50%;
+    left: 40%; 
+} 
+    
