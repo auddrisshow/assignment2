@@ -38,6 +38,7 @@ body{
 .elite p{
     font-size: 36px;
     font-weight: 800;
+    padding-bottom: 30px;
 }
 .elite .travel{
     color: #FF5400;
@@ -140,6 +141,7 @@ font-weight: 800;
     margin-top: 10px; 
 }
 .btn{
+    padding-bottom: 10px;
     position: relative;
 }
 .btn-primary{
@@ -158,8 +160,8 @@ font-weight: 800;
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 20px;
-    margin-top: 10px
+    left: 25px;
+    top: 20px
 
 }
 .input-details{
@@ -171,6 +173,8 @@ font-weight: 800;
     position: absolute;
     margin-top: -15%;
     margin-left: 200px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
     
 }
 /* nav and header style finished */
@@ -494,15 +498,18 @@ font-weight: 800;
     border: none;
 }
 .save{
-    width: 672px;
+    width: 598px;
     height: 422px;
 
 }
 .save img{
+    width: 596px;
+    height: 422px;
     
     position: relative;
 }
-.save p{
+.save .save-70{
+    
     width: 324px;
     height: 120px;
     border-radius: 16px;
@@ -513,9 +520,91 @@ font-weight: 800;
     text-align: center;
     padding-left: 20px;
     padding-top: 20px;
-    
+    position: absolute;
     transform: rotate(-27deg);
     position: absolute;
     bottom: -406%;
-    left: 66%;
+    left: 65.7%;
 }
+/* section-4 style end */
+/* footer start */
+
+.div-logo{
+    margin-top: 200px;
+    padding-top: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.end-part{
+    border: 0;
+    margin: 0;
+    margin-top: 100px;
+    height: 420px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.div-logo img{
+    width: 40px;
+    height: 46.673px;
+    
+}
+.div-logo p{
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.div-logo .trav{
+    color: #FF5400;
+    
+}
+
+.world{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.world p{
+    color: #5A5A5D;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social img{
+    width: 174.322px;
+    height: 24px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line img {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    
+}
+copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright p{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+/* footer style end */
+/* responsive part */
